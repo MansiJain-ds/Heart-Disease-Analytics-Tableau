@@ -24,6 +24,14 @@ The analysis explores demographic, medical, and lifestyle attributes contributin
 
 ---
 
+## 👥 Project Contributions
+
+- Database Integration & Data Preparation  
+- Visualization & Dashboard Development  
+- Analytical Review & Integration Testing
+
+
+  
 ## 📂 Dataset Information
 The dataset includes key health-related variables:
 
