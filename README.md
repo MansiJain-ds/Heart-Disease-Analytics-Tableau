@@ -1,66 +1,82 @@
-# 🫀 Heart Disease Analytics using Tableau
+
+# 🫀 Heart Disease Analytics Platform
 
 ## 📌 Project Overview
-This project focuses on performing an in-depth analytical study of heart disease risk factors using data visualization techniques. The goal is to transform structured healthcare data into meaningful insights through interactive dashboards and story-driven analysis.
+This project presents a **data-driven analytical platform for exploring heart disease risk factors** using interactive dashboards and structured storytelling.
 
-The analysis explores demographic, medical, and lifestyle attributes contributing to heart disease patterns.
+Healthcare data was processed and analyzed to identify patterns across **demographic, lifestyle, and medical attributes** associated with cardiovascular disease. The insights are presented through **interactive Tableau dashboards embedded within a web interface built using Flask**.
+
+The goal of this project is to demonstrate how **data analytics and visualization techniques can transform healthcare datasets into actionable insights**.
 
 ---
 
 ## 🎯 Objectives
-- Identify high-risk groups based on age, gender, and race.
-- Analyze impact of smoking, alcohol, diabetes, and BMI.
-- Study correlation between general health and heart disease.
-- Build structured Tableau dashboards for interactive exploration.
-- Present analytical storytelling using Tableau Story feature.
+The primary goals of this project are:
+
+- Analyze demographic factors influencing heart disease
+- Study the impact of lifestyle habits such as smoking and alcohol consumption
+- Explore correlations between diabetes, stroke, BMI, and cardiovascular risk
+- Develop interactive dashboards for healthcare analytics
+- Present findings using structured data storytelling
 
 ---
 
-## 🛠 Tools & Technologies
+## 🛠 Tech Stack
+
+### Data & Storage
 - SQLite (Database Storage)
-- CSV (Data Extraction Format)
-- Tableau Public (Dashboard & Story Creation)
-- GitHub (Version Control & Collaboration)
+- CSV Dataset
+
+### Analytics & Visualization
+- Tableau Public
+
+### Application Layer
+- Python
+- Flask
+
+### Version Control
+- Git & GitHub
+
+### Deployment
+- Render
 
 ---
 
-## 👥 Project Contributions
+## 📂 Project Structure
 
-- Database Integration & Data Preparation  
-- Visualization & Dashboard Development  
-- Analytical Review & Integration Testing
-
-
-  
-## 📂 Dataset Information
-The dataset includes key health-related variables:
-
-- Heart Disease (Target Variable)
-- BMI
-- Smoking
-- Alcohol Drinking
-- Stroke
-- Physical Health
-- Mental Health
-- Diabetic
-- Age Category
-- Sex
-- Race
-- General Health
-- Physical Activity
-- Kidney Disease
-- Skin Cancer
-- Sleep Time
-
-Data was extracted from a database file and prepared for Tableau visualization.
+```
+Heart-Disease-Analytics
+│
+├── data/                # Cleaned CSV dataset
+├── database/            # SQLite database
+├── tableau/             # Tableau dashboard (.twbx)
+├── screenshots/         # Dashboard preview images
+├── documentation/       # Project documentation
+│
+├── templates/           # HTML templates (Flask)
+│   ├── index.html
+│   ├── dashboard.html
+│   ├── team.html
+│   ├── story.html
+│   └── contact.html
+│
+├── static/              # CSS and assets
+│
+├── app.py               # Flask application
+├── requirements.txt     # Python dependencies
+└── README.md
+```
 
 ---
 
-## 📊 Analytical Dashboards Developed
+## 📊 Analytical Dashboards
+
+The following analytical dashboards were created to explore heart disease patterns:
+
 1. Gender vs Heart Disease  
 2. Age Category vs Heart Disease  
 3. Diabetic vs Stroke Analysis  
-4. Impact of Smoking & Alcohol  
+4. Smoking & Alcohol Impact  
 5. Race-wise Distribution  
 6. General Health Correlation  
 7. Physical Activity Impact  
@@ -68,44 +84,128 @@ Data was extracted from a database file and prepared for Tableau visualization.
 9. Stroke Risk Analysis  
 10. Multi-factor Risk Overview  
 
+These dashboards provide an **interactive analytical view of healthcare variables influencing cardiovascular disease**.
+
+---
+
+## 📊 Dataset Features
+
+The dataset contains multiple health-related attributes used to analyze heart disease risk factors.
+
+| Feature | Description |
+|------|------|
+| Heart Disease | Target variable |
+| BMI | Body Mass Index |
+| Smoking | Smoking status |
+| Alcohol Drinking | Alcohol consumption |
+| Stroke | Stroke history |
+| Physical Health | Days of poor physical health |
+| Mental Health | Days of poor mental health |
+| Diabetic | Diabetes status |
+| Age Category | Age group |
+| Sex | Gender |
+| Race | Ethnicity |
+| General Health | Overall health status |
+| Physical Activity | Exercise activity |
+| Kidney Disease | Kidney disease indicator |
+| Skin Cancer | Skin cancer indicator |
+| Sleep Time | Average sleep duration |
+
 ---
 
 ## 🔎 Key Insights
-- Higher age groups show significantly higher prevalence.
-- Smoking and diabetes strongly increase risk probability.
-- Poor general health is directly correlated with heart disease.
-- Physical inactivity contributes to elevated risk levels.
-- Certain demographic segments display higher susceptibility.
+
+Key observations derived from the analysis include:
+
+- Higher age groups exhibit significantly higher heart disease prevalence
+- Smoking and diabetes are strongly correlated with cardiovascular risk
+- Individuals reporting poor general health have increased heart disease probability
+- Lack of physical activity contributes to elevated risk levels
+- Certain demographic groups demonstrate higher susceptibility to heart disease
 
 ---
 
-## 📈 Outcome
-The project successfully converts structured healthcare data into an interactive analytical dashboard. The visual storytelling approach enhances interpretability and enables data-driven health insights.
+## 🌐 Live Application
+
+The analytics platform is deployed and accessible online.
+
+**Live Demo**
+
+```
+https://heart-disease-analytics-tableau.onrender.com
+```
+
+Users can explore **interactive dashboards and healthcare insights directly through the web interface**.
 
 ---
 
-## 📎 Tableau Dashboard
-(Link will be added after publishing on Tableau Public)
+## 📷 Dashboard Preview
+
+Example dashboard screenshots:
+
+
+
+```
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b0878538-a1bf-4095-930a-85762aea3912" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f45789e2-0ad5-4678-a5ac-b52ed6e9e83f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f0cbe330-1515-4cb5-be5a-63c6deb94690" />
+
+
+
+
+```
 
 ---
 
-## 📁 Repository Structure
-data/ – CSV dataset
-database/ – Original SQLite DB
-tableau/ – Final dashboard file (.twbx)
-screenshots/ – Dashboard preview images
-documentation/ – Project documentation
-README.md – Project description
+## 👥 Project Contributions
 
+This project involved several development stages:
+
+**Data Preparation**
+- Database extraction
+- Data cleaning and transformation
+
+**Visualization Development**
+- Dashboard design
+- Interactive Tableau analytics
+
+**Application Integration**
+- Flask web interface
+- Dashboard embedding
+- UI development
+
+**Testing & Review**
+- Integration testing
+- Analytical validation
 
 ---
 
-## 🚀 Future Scope
-- Machine Learning-based risk prediction model
-- Deployment as web-based interactive analytics tool
-- Integration with real-time healthcare datasets
+## 🚀 Future Enhancements
+
+Potential improvements for the project include:
+
+- Machine Learning based heart disease prediction model
+- Real-time healthcare data integration
+- Advanced risk scoring system
+- User-driven interactive filters
+- Scalable cloud deployment architecture
 
 ---
 
 ## 📜 License
-This project is developed for analytical and educational purposes.
+
+This project is developed for **educational and analytical purposes**.
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a **star ⭐ on GitHub**.
+
+---
+
+## 🔗 Repository
+
+```
+https://github.com/MansiJain-ds/Heart-Disease-Analytics-Tableau
+```
