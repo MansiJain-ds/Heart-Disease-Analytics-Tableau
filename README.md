@@ -129,9 +129,9 @@ Key observations derived from the analysis include:
 Interactive Tableau Dashboard:
 
 
-```
+
 https://public.tableau.com/views/heart_deasease_final/Story1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
-```
+
 ---
 
 ## 🌐 Live Application
@@ -140,9 +140,9 @@ The analytics platform is deployed and accessible online.
 
 **Live Demo**
 
-```
+
 https://heart-disease-analytics-tableau.onrender.com
-```
+
 
 Users can explore **interactive dashboards and healthcare insights directly through the web interface**.
 
@@ -197,6 +197,5 @@ If you found this project useful, consider giving it a **star ⭐ on GitHub**.
 
 ## 🔗 Repository
 
-```
 https://github.com/MansiJain-ds/Heart-Disease-Analytics-Tableau
-```
+
