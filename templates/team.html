@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="team-section">
+
+<div class="team-header">
+<p class="section-tag">— THE TEAM</p>
+<h1>The Team Behind Heart Disease Analysis</h1>
+
+<p class="section-desc">
+A multidisciplinary team of engineers and analysts building the future 
+of cardiovascular intelligence — combining data science, visualization, 
+and clinical systems expertise.
+</p>
+
+</div>
+
+
+<div class="team-grid">
+
+<!-- Mansi -->
+<div class="team-card">
+
+<div class="image-wrapper">
+<img src="{{ url_for('static', filename='images/mansi.jpeg') }}" alt="Mansi">
+<span class="online-dot"></span>
+</div>
+
+<h3>Mansi Jain</h3>
+
+<p class="role">
+TEAM LEAD & INTEGRATION ARCHITECT
+</p>
+
+<p class="desc">
+Led Flask backend architecture, end-to-end system integration,
+database connectivity, and deployment on Render. Responsible
+for API design and overall platform architecture.
+</p>
+
+</div>
+
+
+<!-- Neha -->
+<div class="team-card">
+
+<div class="image-wrapper">
+<img src="{{ url_for('static', filename='images/neha.png') }}" alt="Neha">
+<span class="online-dot"></span>
+</div>
+
+<h3>Neha Sethiya</h3>
+
+<p class="role">
+DATA VISUALIZATION SPECIALIST
+</p>
+
+<p class="desc">
+Designed and implemented Tableau dashboards and analytical storytelling.
+Translated clinical biomarkers into interactive insights for stakeholders.
+</p>
+
+</div>
+
+
+<!-- Muskan -->
+<div class="team-card">
+
+<div class="image-wrapper">
+<img src="{{ url_for('static', filename='images/muskan.jpeg') }}" alt="Muskan">
+<span class="online-dot"></span>
+</div>
+
+<h3>Muskan Badshah</h3>
+
+<p class="role">
+DATA PROCESSING ENGINEER
+</p>
+
+<p class="desc">
+Architected SQL schema design, clinical data cleaning,
+deduplication, and structured pipeline processing for downstream modeling.
+</p>
+
+</div>
+
+
+<!-- Parv -->
+<div class="team-card">
+
+<div class="image-wrapper">
+<img src="{{ url_for('static', filename='images/parv.png') }}" alt="Parv">
+<span class="online-dot"></span>
+</div>
+
+<h3>Parv Jain</h3>
+
+<p class="role">
+QA & DOCUMENTATION LEAD
+</p>
+
+<p class="desc">
+Owned end-to-end testing frameworks, validation protocols across
+system layers, and comprehensive technical documentation.
+</p>
+
+</div>
+
+
+</div>
+
+
+
+<section class="collab-section">
+
+<h2>Interested in Collaborating?</h2>
+
+<p>
+Reach out to our team for research partnerships, technical collaboration,
+or project discussions related to CardioAI.
+</p>
+
+
+<div class="contact-grid">
+
+<div class="contact-item">
+<strong>Mansi Jain</strong>
+<a href="mailto:mansijain1618@gmail.com">mansijain1618@gmail.com</a>
+</div>
+
+<div class="contact-item">
+<strong>Neha Sethiya</strong>
+<a href="mailto:nehasethiya27@gmail.com">nehasethiya27@gmail.com</a>
+</div>
+
+<div class="contact-item">
+<strong>Muskan Badshah</strong>
+<a href="mailto:muskanbadshah18@gmail.com">muskanbadshah18@gmail.com</a>
+</div>
+
+<div class="contact-item">
+<strong>Parv Jain</strong>
+<a href="mailto:parvjain6315@gmail.com">parvjain6315@gmail.com</a>
+</div>
+
+</div>
+
+</section>
+
+</section>
+
+{% endblock %}

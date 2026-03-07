@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="contact-section">
+
+    <div class="contact-header">
+        <p class="section-tag">— CONTACT</p>
+        <h1>Get in Touch</h1>
+        <p class="section-desc">
+            Reach out to the team for academic collaborations,
+            technical queries, project discussions, or partnership opportunities.
+        </p>
+    </div>
+
+    <!-- Contact Info Cards -->
+    <div class="contact-info">
+
+        <div class="info-card">
+            <div class="info-icon">✉</div>
+            <div>
+                <p class="info-label">PRIMARY CONTACT</p>
+                <p class="info-text">mansijain1618@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <div class="info-icon">📍</div>
+            <div>
+                <p class="info-label">LOCATION</p>
+                <p class="info-text">LNCT Bhopal, Madhya Pradesh, India</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Response Note -->
+    <div class="response-note">
+        Response time: Typically within 24–48 hours.
+        For urgent academic submissions, please mention deadline in subject.
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form-wrapper">
+        <h2>Send a Message</h2>
+
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+</section>
+
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="hero">
+
+<div class="hero-left">
+    <h1>Heart Disease Analysis </h1>
+
+    <p>
+        This project analyzes heart disease data using Tableau dashboards connected 
+        with MySQL and embedded through a Flask web application. 
+        It identifies key risk factors such as age, gender, diabetes, smoking, physical activity,
+        and general health to support preventive healthcare decisions
+  
+    </p>
+
+    <a href="/analytics" class="explore-btn">Explore Analytics</a>
+</div>
+
+<div class="hero-right">
+    <div class="glow-circle"></div>
+    <img src="{{ url_for('static', filename='images/Heart.png') }}" class="heart-img">
+</div>
+
+</section>
+
+{% endblock %}
