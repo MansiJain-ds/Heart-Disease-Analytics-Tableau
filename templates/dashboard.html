@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="dashboard-section">
+
+<div class="dashboard-header">
+<h1>Heart Disease Analytics Dashboard</h1>
+
+<p>
+Interactive analytics exploring demographic patterns,
+lifestyle risk factors, and medical conditions related to cardiovascular disease.
+</p>
+</div>
+
+
+<!-- Dashboard 1 -->
+
+<div class="dashboard-box">
+
+<h2>Demographic Analysis</h2>
+
+<div class="loader" id="loader1">
+<div class="spinner"></div>
+<p>Loading Dashboard...</p>
+</div>
+
+<iframe
+src="https://public.tableau.com/views/heart_deasease_final/Dashboard1?:embed=true&:showVizHome=no"
+class="dashboard-frame"
+onload="hideLoader('loader1')">
+</iframe>
+
+</div>
+
+
+
+<!-- Dashboard 2 -->
+
+<div class="dashboard-box">
+
+<h2>Lifestyle Risk Factors</h2>
+
+<div class="loader" id="loader2">
+<div class="spinner"></div>
+<p>Loading Dashboard...</p>
+</div>
+
+<iframe
+src="https://public.tableau.com/views/heart_deasease_final/Dashboard2?:embed=true&:showVizHome=no"
+class="dashboard-frame"
+onload="hideLoader('loader2')">
+</iframe>
+
+</div>
+
+
+
+<!-- Dashboard 3 -->
+
+<div class="dashboard-box">
+
+<h2>Medical Condition Analysis</h2>
+
+<div class="loader" id="loader3">
+<div class="spinner"></div>
+<p>Loading Dashboard...</p>
+</div>
+
+<iframe
+src="https://public.tableau.com/views/heart_deasease_final/Dashboard3?:embed=true&:showVizHome=no"
+class="dashboard-frame"
+onload="hideLoader('loader3')">
+</iframe>
+
+</div>
+
+</section>
+
+
+<script>
+
+function hideLoader(loaderId){
+document.getElementById(loaderId).style.display = "none";
+}
+
+</script>
+
+
+{% endblock %}
