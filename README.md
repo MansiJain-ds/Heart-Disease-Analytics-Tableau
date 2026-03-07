@@ -124,6 +124,12 @@ Key observations derived from the analysis include:
 - Certain demographic groups demonstrate higher susceptibility to heart disease
 
 ---
+## 📎 Tableau Dashboard
+
+Interactive Tableau Dashboard:
+
+https://public.tableau.com/views/HeartDiseaseDashboard/Story
+---
 
 ## 🌐 Live Application
 
