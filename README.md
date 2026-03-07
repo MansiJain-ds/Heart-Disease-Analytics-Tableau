@@ -128,7 +128,10 @@ Key observations derived from the analysis include:
 
 Interactive Tableau Dashboard:
 
-https://public.tableau.com/views/HeartDiseaseDashboard/Story
+
+```
+https://public.tableau.com/views/heart_deasease_final/Story1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+```
 ---
 
 ## 🌐 Live Application
