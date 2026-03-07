@@ -139,24 +139,6 @@ Users can explore **interactive dashboards and healthcare insights directly thro
 
 ---
 
-## 📷 Dashboard Preview
-
-Example dashboard screenshots:
-
-
-
-```
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b0878538-a1bf-4095-930a-85762aea3912" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f45789e2-0ad5-4678-a5ac-b52ed6e9e83f" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f0cbe330-1515-4cb5-be5a-63c6deb94690" />
-
-
-
-
-```
-
----
-
 ## 👥 Project Contributions
 
 This project involved several development stages:
