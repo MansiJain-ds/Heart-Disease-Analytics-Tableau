@@ -204,5 +204,5 @@ https://github.com/MansiJain-ds/Heart-Disease-Analytics-Tableau
 
 Watch the project demo here:
 
-https://drive.google.com/file/d/16yrgeYMsazk7bVXKx9BSaldeAMVEw7fI/view?usp=sharing
+https://github.com/MansiJain-ds/Heart-Disease-Analytics-Tableau/blob/main/demo_video.mp4
 
