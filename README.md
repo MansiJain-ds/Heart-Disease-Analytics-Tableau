@@ -199,3 +199,10 @@ If you found this project useful, consider giving it a **star ⭐ on GitHub**.
 
 https://github.com/MansiJain-ds/Heart-Disease-Analytics-Tableau
 
+
+## Demo Video
+
+Watch the project demo here:
+
+https://drive.google.com/file/d/16yrgeYMsazk7bVXKx9BSaldeAMVEw7fI/view?usp=sharing
+
